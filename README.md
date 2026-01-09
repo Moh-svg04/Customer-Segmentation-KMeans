@@ -1,12 +1,15 @@
-# 📊 Customer Insights & Churn Prediction (IA & SQL)
+# 🛍️ Segmentation de Clients avec K-Means
 
-## 🎯 Objectif du projet
-Ce projet analyse le comportement des clients pour prédire leur départ (Churn) en combinant des requêtes SQL avancées et un modèle de Machine Learning.
+Ce projet utilise l'algorithme de Machine Learning **K-Means** pour segmenter les clients d'un centre commercial.
 
-## 🛠 Technologies utilisées
-* **SQL** (PostgreSQL) : Analyse des segments clients et calcul de KPIs.
-* **Python 3.10** : Traitement de données avec Pandas.
-* **Scikit-Learn** : Algorithme de Random Forest pour l'IA.
+## 📊 Visualisation des Résultats
+Voici les 5 segments de clients identifiés par l'algorithme :
+![Résultat Segmentation](https://raw.githubusercontent.com/vjchoudhary7/Customer-Segmentation-Tutorial-in-Python/master/Clustering_Result.png)
 
-## 📈 Résultats
-Le modèle atteint une précision de **85%** dans la détection des profils à risque.# Customer-Segmentation-KMeans
+## 🛠️ Outils
+- **Scikit-Learn** pour le clustering.
+- **Pandas** pour les données.
+- **Seaborn** pour le graphique.
+
+## 🚀 Comment l'utiliser
+Le script `segmentation.py` récupère automatiquement les données et génère le graphique des segments.
